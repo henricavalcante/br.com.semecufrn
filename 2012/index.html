@@ -110,8 +110,7 @@ $(document).ready(function(){
 <p><!--  Optional CU3ER div container --></p>
 <p><img src="shapeshifter/img/logo-big.png" alt="SemecUfrn" /></p>
 
-<p>Tendo em vista a necessidade do estudante cada vez mais estar em contato com o mercado de trabalho e com a comunidade técnico/cientifica, o Centro Acadêmico de Engenharia Mecânica da UFRN ( CAEM ) promove a SEMANA DA ENGENHARIA MECÂNICA 2011 ( SEMEC 2012 ), Com o objetivo de garantir essa relação de contato, trazemos para dentro da universidade engenheiros conceituados e com inúmeras experiências para compartilha com a comunidade acadêmica, dentre eles, alguns que levam o nome da instituição até hoje.</p>
-</div>
+<p>Com a responsabilidade de representar os alunos do curso, o centro acadêmico de engenharia mecânica realiza a semana da engenharia mecânica com o intuito de aproximar os discentes do mercado de trabalho e/ou meio acadêmico. Contando na edição anterior com palestrantess renomados na engenharia mecânica brasileira como o Eng. Antonio Traverso, gerente da BR distribuidora, bem como o Dr. Eng. Aldelci Oliveira, ex-pesquisador do cenpes,fundador da empresa SG Green, Eng. Daniel Faro, responsável pelo laboratório de mapas e dados de recursos energéticos do CTGAS-ER, um consórcio entre a Petrobrás e o SENAI. O Centro Acadêmico de Engenharia Mecânica da UFRN ( CAEM ) promove a SEMANA DA ENGENHARIA MECÂNICA 2012 ( SEMEC 2012 )</div>
 
 
 </div>
@@ -125,7 +124,6 @@ $(document).ready(function(){
 
 <div class="content_body">
 
-<p>Com a responsabilidade de representar os alunos do curso, o centro acadêmico de engenharia mecânica realiza a semana da engenharia mecânica com o intuito de aproximar os discentes do mercado de trabalho e/ou meio acadêmico. Contando na edição anterior com palestras renomados na engenharia mecânica brasileira como o Eng. Antonio Traverso, gerente da BR distribuidora, bem como o Dr. Eng. Aldelci Oliveira, ex-pesquisador do cenpes,fundador da empresa SG Green, Dr. Eng. Daniel Faro, responsável pelo laboratório de mapas e dados de recursos energéticos do CTGAS-ER, um consórcio entre a Petrobrás e o SENAI.</p>
 <h4>Como objetivos desse valioso evento, podemos destacar:</h4>
 <ul>
 	<li>
@@ -318,14 +316,16 @@ $.ajax({
 <p><div><form action="/" method="post">
 
 <p>Seu Nome (requerido)<br />
-    <span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" class="wpcf7-text wpcf7-validates-as-required" size="40" /></span> </p>
+    <span class="wpcf7-form-control-wrap your-name"><input type="text" name="nome" value="" class="wpcf7-text wpcf7-validates-as-required" size="40" /></span> </p>
 
 <p>Email (requerido)<br />
-    <span class="wpcf7-form-control-wrap your-email"><input type="text" name="your-email" value="" class="wpcf7-text wpcf7-validates-as-email wpcf7-validates-as-required" size="40" /></span> </p>
-<p>Assunto<br />
-    <span class="wpcf7-form-control-wrap your-subject"><input type="text" name="your-subject" value="" class="wpcf7-text" size="40" /></span> </p>
-<p>Mensagem<br />
-    <span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="10"></textarea></span> </p>
+    <span class="wpcf7-form-control-wrap your-email"><input type="text" name="email" value="" class="wpcf7-text wpcf7-validates-as-email wpcf7-validates-as-required" size="40" /></span> </p>
+<p>Telefone (requerido)<br />
+    <span class="wpcf7-form-control-wrap your-name"><input type="text" name="telefone" value="" class="wpcf7-text wpcf7-validates-as-required" size="40" /></span> </p>
+<p>Matricula (requerido)<br />
+    <span class="wpcf7-form-control-wrap your-name"><input type="text" name="matricula" value="" class="wpcf7-text wpcf7-validates-as-required" size="40" /></span> </p>
+
+
 <p><input type="submit" value="Enviar" class="wpcf7-submit" /><img class="ajax-loader" style="visibility: hidden;" alt="Enviando ..." src="shapeshifter/img/ajax-loader.gif" /></p>
 <div class="wpcf7-response-output wpcf7-display-none"></div></form></div> </p>
 </div>
@@ -341,20 +341,16 @@ $.ajax({
 
 <div class="content_body">
 
-<p><div class="wpcf7" id="wpcf7-f3-p218-o1"><form action="/themes/wp/mu/wpmu/#wpcf7-f3-p218-o1" method="post" class="wpcf7-form">
-<div style="display: none;">
-<input type="hidden" name="_wpcf7" value="3" />
-<input type="hidden" name="_wpcf7_version" value="2.4.5" />
-<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f3-p218-o1" />
-</div>
+<p><div class="wpcf7" id="wpcf7-f3-p218-o1"><form action="email.php" method="post" class="wpcf7-form">
+
 <p>Seu Nome (requerido)<br />
-    <span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" class="wpcf7-text wpcf7-validates-as-required" size="40" /></span> </p>
+    <span class="wpcf7-form-control-wrap your-name"><input type="text" name="nome" value="" class="wpcf7-text wpcf7-validates-as-required" size="40" /></span> </p>
 <p>Email (requerido)<br />
-    <span class="wpcf7-form-control-wrap your-email"><input type="text" name="your-email" value="" class="wpcf7-text wpcf7-validates-as-email wpcf7-validates-as-required" size="40" /></span> </p>
+    <span class="wpcf7-form-control-wrap your-email"><input type="text" name="email" value="" class="wpcf7-text wpcf7-validates-as-email wpcf7-validates-as-required" size="40" /></span> </p>
 <p>Assunto<br />
-    <span class="wpcf7-form-control-wrap your-subject"><input type="text" name="your-subject" value="" class="wpcf7-text" size="40" /></span> </p>
+    <span class="wpcf7-form-control-wrap your-subject"><input type="text" name="assunto" value="" class="wpcf7-text" size="40" /></span> </p>
 <p>Mensagem<br />
-    <span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="10"></textarea></span> </p>
+    <span class="wpcf7-form-control-wrap your-message"><textarea name="mensagem" cols="40" rows="10"></textarea></span> </p>
 <p><input type="submit" value="Enviar" class="wpcf7-submit" /><img class="ajax-loader" style="visibility: hidden;" alt="Enviando ..." src="shapeshifter/img/ajax-loader.gif" /></p>
 <div class="wpcf7-response-output wpcf7-display-none"></div></form></div> </p>
 </div>
