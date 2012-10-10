@@ -26,8 +26,8 @@ function smtpmailer($para, $de, $de_nome, $assunto, $corpo) {
 	$mail->Subject = $assunto;
 	$mail->Body = $corpo;
 
-  $mail->AddAddress($para, 'vieiraanderson@outlook.com');
-$mail->AddAddress($para, 'hnri_mxel@hotmail.com');
+  $mail->AddAddress('vieiraanderson@outlook.com', 'Anderson Vieira');
+$mail->AddAddress('hnri_mxel@hotmail.com', 'Henri Michel');
 
 	
 	if(!$mail->Send()) {
