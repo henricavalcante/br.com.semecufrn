@@ -1,0 +1,14 @@
+
+	<li class="grid_260">
+<h2>Confira os Palestrantes:</h2>
+<ul class="thumbnail">
+	<li><img title="thumbnail" src="http://meezio.pixelworkshop.fr/wp-content/uploads/2010/06/thumbnail1.jpg" alt="" width="70" height="70" class="thumb" /></li>
+	<li><img title="thumbnail" src="http://meezio.pixelworkshop.fr/wp-content/uploads/2010/06/thumbnail2.jpg" alt="" width="70" height="70" class="thumb" /></li>
+	<li><img title="thumbnail" src="http://meezio.pixelworkshop.fr/wp-content/uploads/2010/06/thumbnail3.jpg" alt="" width="70" height="70" /></li>
+</ul>
+<ul class="thumbnail">
+	<li><img title="thumbnail" src="http://meezio.pixelworkshop.fr/wp-content/uploads/2010/06/thumbnail4.jpg" alt="" width="70" height="70" class="thumb" /></li>
+	<li><img title="thumbnail" src="http://meezio.pixelworkshop.fr/wp-content/uploads/2010/06/thumbnail5.jpg" alt="" width="70" height="70" class="thumb" /></li>
+	<li><img title="thumbnail" src="http://meezio.pixelworkshop.fr/wp-content/uploads/2010/06/thumbnail6.jpg" alt="" width="70" height="70" /></li>
+</ul>
+</li>

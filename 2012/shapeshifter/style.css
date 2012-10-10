@@ -1,0 +1,1067 @@
+
+body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul, ol, li, dl, dt, dd, form, a, fieldset, input, th, td, hr {
+    border: 0 none;
+    margin: 0;
+    outline: medium none;
+    padding: 0;
+}
+body {
+    line-height: 1;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+ul, ol {
+    list-style: none outside none;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.floatLeft {
+    float: left;
+}
+.floatRight {
+    float: right;
+}
+.clear {
+    clear: both;
+}
+div.hr hr {
+    display: none;
+}
+
+
+#global_wrapper {
+    background: none repeat scroll 0 0 transparent;
+    margin: 0 auto;
+    padding: 0;
+    width: 960px;
+}
+.divider {
+    display: inline;
+    float: left;
+    margin: 100px 0 0;
+    width: 620px;
+}
+#sidebar {
+    background: none repeat scroll 0 0 transparent;
+    display: inline;
+    float: left;
+    height: 100%;
+    padding: 40px 0;
+    position: fixed;
+    top: 0;
+    width: 220px;
+}
+.logo {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.navigation {
+    margin: 15px 0 0 24px;
+}
+#content {
+    background: none repeat scroll 0 0 transparent;
+    display: block;
+    margin-left: 235px;
+    top: 0;
+    width: 740px;
+}
+.head_col {
+}
+.content_body {
+    margin-top: -26px;
+    padding: 0;
+    width: 590px;
+}
+.content_block {
+    clear: both;
+    margin-bottom: 400px;
+    padding-top: 25px;
+}
+#tophat {
+    background-color: black;
+    border-bottom: 1px solid #EEEEEE;
+    color: #FFFFFF;
+    height: 3px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+#footer {
+    background-color: black;
+    border-top: 1px solid #CCCCCC;
+    bottom: 0;
+    color: #666666;
+    font-size: 10px;
+    left: 0;
+    opacity: 0.9;
+    padding: 8px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+
+html {
+    background: url("img/gridbg.gif") repeat scroll 0 0 white;
+}
+body {
+    background: url("img/border-bottom.jpg") repeat-x fixed left bottom transparent;
+}
+body {
+    color: #555555;
+    font: 12px/20px "Lucida Grande","Lucida Sans Unicode",Arial,sans-serif;
+}
+input, textarea {
+    line-height: normal !important;
+}
+h1, h2, h3, h4, h5, h6 {
+    clear: both;
+    color: #333333;
+    font-weight: normal;
+}
+#content h2 {
+    font-size: 22px;
+    margin: 0 0 10px;
+    padding-top: 10px;
+}
+#content h3 {
+    font-size: 20px;
+    margin: 0 0 10px;
+    padding-top: 20px;
+}
+#content h4 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+#content h5 {
+    font-size: 16px;
+    margin: 5px 0 10px;
+}
+#content h5 {
+    font-size: 14px;
+    margin: 5px 0 10px;
+    text-transform: uppercase;
+}
+p, .post-text {
+    margin-bottom: 18px;
+}
+.post-text {
+    margin-top: 18px;
+}
+ul, ol {
+    margin: auto;
+}
+ul {
+    list-style: none outside none;
+}
+ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+}
+ol ol {
+    list-style: upper-alpha outside none;
+}
+ol ol ol {
+    list-style: lower-roman outside none;
+}
+ol ol ol ol {
+    list-style: lower-alpha outside none;
+}
+ul ul, ol ol, ul ol, ol ul {
+    margin-bottom: 0;
+}
+dl {
+    margin: 0 1.5em;
+}
+dd {
+    margin-bottom: 18px;
+}
+strong {
+    font-weight: bold;
+}
+cite, em, i {
+    font-style: italic;
+}
+blockquote {
+    color: #666666;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+blockquote em, blockquote i, blockquote cite {
+    font-style: normal;
+}
+pre {
+    font: 11px/18px Monaco,monospace;
+    margin-bottom: 18px;
+}
+code {
+    font: 11px Monaco,monospace;
+}
+ins {
+    text-decoration: none;
+}
+sup, sub {
+    height: 0;
+    line-height: 1;
+    position: relative;
+    vertical-align: baseline;
+}
+sup {
+    bottom: 1ex;
+}
+sub {
+    top: 0.5ex;
+}
+blockquote.left {
+    float: left;
+    margin-right: 20px;
+    text-align: right;
+    width: 33%;
+}
+blockquote.right {
+    float: right;
+    margin-left: 20px;
+    text-align: left;
+    width: 33%;
+}
+img.alignright {
+    display: inline;
+    float: right;
+    margin: 0 0 4px 10px;
+}
+img.alignleft {
+    display: inline;
+    margin: 0 10px 4px 0;
+}
+.alignright {
+    float: right;
+}
+.alignleft {
+    float: left;
+}
+#content img, #content a img {
+    background: none repeat scroll 0 0 #EEEEEE;
+    border: 1px solid #DDDDDD;
+    padding: 2px;
+}
+.cleanimg {
+    border: 0 none !important;
+    margin: 0 5px 2px 0 !important;
+    padding: 0 !important;
+}
+#navigation li a, x:-moz-any-link {
+    background: none repeat scroll 0 0 black;
+    color: #FFFFFF;
+    font-size: 14px;
+    padding: 5px 6px 4px;
+    text-transform: uppercase;
+}
+#content h1 span, #navigation li a, x:-moz-any-link, x:default {
+    background: none repeat scroll 0 0 black;
+    color: #FFFFFF;
+    font-size: 14px;
+    height: 20px;
+    padding: 2px 6px 4px;
+    text-transform: uppercase;
+}
+#navigation li {
+    margin: 6px 6px 0 0;
+}
+#content h1 {
+    margin-left: 605px;
+}
+#navigation li {
+    text-align: right;
+}
+#content h1 a:hover, #navigation li a:hover, #content h2.download a:hover {
+    text-decoration: none;
+}
+.content_body ul {
+    list-style-type: circle;
+    padding: 0 15px;
+}
+.contact_btn {
+    left: 50%;
+    margin-left: 360px;
+    position: relative;
+    top: 3px;
+}
+.contact_btn img:hover {
+    opacity: 0.9;
+}
+.miniicon {
+    background: none repeat scroll 0 0 transparent !important;
+    border: 0 none !important;
+    float: left;
+    margin-top: 2px;
+    padding: 0 !important;
+}
+.quote {
+    background: url("img/line.jpg") no-repeat scroll left center transparent;
+    float: left;
+    margin-left: 10px;
+    padding: 0 0 0 10px;
+    width: 80%;
+}
+.spacer {
+    float: left;
+    margin-right: 40px;
+}
+.arrow {
+    background: url("img/downarrow.png") no-repeat scroll 0 0 transparent;
+    bottom: -4px;
+    height: 45px;
+    position: fixed;
+    right: 10px;
+    width: 46px;
+    z-index: 2000;
+}
+.arrow.active {
+    background: url("img/uparrow.png") no-repeat scroll 0 0 transparent;
+}
+textarea {
+    background: none repeat scroll 0 0 #EEEEEE;
+    border: 1px solid #DDDDDD;
+    height: 150px;
+    line-height: 24px;
+    padding: 5px;
+    width: 97%;
+}
+input {
+    background: none repeat scroll 0 0 #EEEEEE;
+    border: 1px solid #DDDDDD;
+    padding: 5px;
+}
+#cu3er-wrapper {
+    background: url("img/shadow.png") no-repeat scroll 0 294px transparent;
+    height: 340px;
+    position: relative;
+    top: -12px;
+}
+.portfolio, .services {
+    padding-bottom: 400px;
+}
+.portfolio img {
+    border: 1px solid #666666;
+    float: left;
+    margin: 0 6px 6px 0;
+    padding: 1px;
+}
+.portfolio p, .services {
+    margin: 5px 0 0;
+}
+.box img {
+    margin-bottom: 8px;
+}
+.box {
+    display: block;
+    float: left;
+    margin-bottom: 20px;
+    width: 270px;
+}
+.cleanimg {
+    background: none repeat scroll 0 0 transparent !important;
+    border: 0 none;
+    padding: 0;
+}
+#content h1 {
+    margin-left: 605px;
+    position: relative;
+    top: 2px;
+}
+#content h1 span, #navigation li a {
+    padding: 1px 6px 4px;
+}
+#content h1 span {
+    padding: 3px 6px 4px;
+}
+
+
+#page .navigation ul li .icon {
+    float: left;
+}
+#nav, #nav ul {
+    line-height: 1.5em;
+    list-style-position: outside;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: 99;
+}
+#nav a {
+    display: block;
+    float: none;
+}
+#nav li {
+    float: left;
+    position: relative;
+}
+#nav ul {
+    position: absolute;
+    top: 1.5em;
+    z-index: 99;
+}
+#nav .more {
+    background: url("img/arrow.gif") no-repeat scroll right center white !important;
+}
+#page .navigation #nav li ul li {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 white;
+    border-color: -moz-use-text-color black black;
+    border-image: none;
+    border-right: 1px solid black;
+    border-style: none solid solid;
+    border-width: 0 1px 1px;
+    clear: both;
+    float: left;
+    height: auto;
+    padding: 10px 0;
+}
+#nav li ul a {
+    height: auto;
+    padding-left: 12px;
+    width: 12em;
+    z-index: 99;
+}
+#nav li ul a:hover {
+    color: #1780B9;
+}
+#nav ul ul {
+    top: auto;
+    z-index: 99;
+}
+#nav li ul ul {
+    left: 12em;
+    margin: -36px 0 0 12px;
+    z-index: 99;
+}
+#nav .topli {
+    background: none repeat scroll 0 0 #DDDDDD;
+    border-top: 1px solid black !important;
+}
+#nav li:hover ul ul, #nav li:hover ul ul ul, #nav li:hover ul ul ul ul {
+    display: none;
+    z-index: 99;
+}
+#nav li:hover ul, #nav li li:hover ul, #nav li li li:hover ul, #nav li li li li:hover ul {
+    display: block;
+    z-index: 99;
+}
+
+
+
+div.light_rounded .pp_top .pp_left {
+    background: url("img/sprite.png") no-repeat scroll -88px -53px transparent;
+}
+div.light_rounded .pp_top .pp_middle {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+div.light_rounded .pp_top .pp_right {
+    background: url("img/sprite.png") no-repeat scroll -110px -53px transparent;
+}
+div.light_rounded .pp_content .ppt {
+    color: #000000;
+}
+div.light_rounded .pp_content_container .pp_left, div.light_rounded .pp_content_container .pp_right {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+div.light_rounded .pp_content {
+    background-color: #FFFFFF;
+}
+div.light_rounded .pp_next:hover {
+    background: url("img/btnNext.png") no-repeat scroll right center transparent;
+    cursor: pointer;
+}
+div.light_rounded .pp_previous:hover {
+    background: url("img/btnPrevious.png") no-repeat scroll left center transparent;
+    cursor: pointer;
+}
+div.light_rounded .pp_expand {
+    background: url("img/sprite.png") no-repeat scroll -31px -26px transparent;
+    cursor: pointer;
+}
+div.light_rounded .pp_expand:hover {
+    background: url("img/sprite.png") no-repeat scroll -31px -47px transparent;
+    cursor: pointer;
+}
+div.light_rounded .pp_contract {
+    background: url("img/sprite.png") no-repeat scroll 0 -26px transparent;
+    cursor: pointer;
+}
+div.light_rounded .pp_contract:hover {
+    background: url("img/sprite.png") no-repeat scroll 0 -47px transparent;
+    cursor: pointer;
+}
+div.light_rounded .pp_close {
+    background: url("img/sprite.png") no-repeat scroll -1px -1px transparent;
+    cursor: pointer;
+    height: 22px;
+    width: 75px;
+}
+div.light_rounded #pp_full_res .pp_inline {
+    color: #000000;
+}
+div.light_rounded .pp_arrow_previous {
+    background: url("img/sprite.png") no-repeat scroll 0 -71px transparent;
+}
+div.light_rounded .pp_arrow_previous.disabled {
+    background-position: 0 -87px;
+    cursor: default;
+}
+div.light_rounded .pp_arrow_next {
+    background: url("img/sprite.png") no-repeat scroll -22px -71px transparent;
+}
+div.light_rounded .pp_arrow_next.disabled {
+    background-position: -22px -87px;
+    cursor: default;
+}
+div.light_rounded .pp_bottom .pp_left {
+    background: url("img/sprite.png") no-repeat scroll -88px -80px transparent;
+}
+div.light_rounded .pp_bottom .pp_middle {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+div.light_rounded .pp_bottom .pp_right {
+    background: url("img/sprite.png") no-repeat scroll -110px -80px transparent;
+}
+div.light_rounded .pp_loaderIcon {
+    background: url("img/loader.gif") no-repeat scroll center center transparent;
+}
+div.dark_rounded .pp_top .pp_left {
+    background: url("img/sprite.png") no-repeat scroll -88px -53px transparent;
+}
+div.dark_rounded .pp_top .pp_middle {
+    background: url("img/contentPattern.png") repeat scroll left top transparent;
+}
+div.dark_rounded .pp_top .pp_right {
+    background: url("img/sprite.png") no-repeat scroll -110px -53px transparent;
+}
+div.dark_rounded .pp_content_container .pp_left {
+    background: url("img/contentPattern.png") repeat-y scroll left top transparent;
+}
+div.dark_rounded .pp_content_container .pp_right {
+    background: url("img/contentPattern.png") repeat-y scroll right top transparent;
+}
+div.dark_rounded .pp_content {
+    background: url("img/contentPattern.png") repeat scroll left top transparent;
+}
+div.dark_rounded .pp_next:hover {
+    background: url("img/btnNext.png") no-repeat scroll right center transparent;
+    cursor: pointer;
+}
+div.dark_rounded .pp_previous:hover {
+    background: url("img/btnPrevious.png") no-repeat scroll left center transparent;
+    cursor: pointer;
+}
+div.dark_rounded .pp_expand {
+    background: url("img/sprite.png") no-repeat scroll -31px -26px transparent;
+    cursor: pointer;
+}
+div.dark_rounded .pp_expand:hover {
+    background: url("img/sprite.png") no-repeat scroll -31px -47px transparent;
+    cursor: pointer;
+}
+div.dark_rounded .pp_contract {
+    background: url("img/sprite.png") no-repeat scroll 0 -26px transparent;
+    cursor: pointer;
+}
+div.dark_rounded .pp_contract:hover {
+    background: url("img/sprite.png") no-repeat scroll 0 -47px transparent;
+    cursor: pointer;
+}
+div.dark_rounded .pp_close {
+    background: url("img/sprite.png") no-repeat scroll -1px -1px transparent;
+    cursor: pointer;
+    height: 22px;
+    width: 75px;
+}
+div.dark_rounded .currentTextHolder {
+    color: #C4C4C4;
+}
+div.dark_rounded .pp_description {
+    color: #FFFFFF;
+}
+div.dark_rounded #pp_full_res .pp_inline {
+    color: #FFFFFF;
+}
+div.dark_rounded .pp_arrow_previous {
+    background: url("img/sprite.png") no-repeat scroll 0 -71px transparent;
+}
+div.dark_rounded .pp_arrow_previous.disabled {
+    background-position: 0 -87px;
+    cursor: default;
+}
+div.dark_rounded .pp_arrow_next {
+    background: url("img/sprite.png") no-repeat scroll -22px -71px transparent;
+}
+div.dark_rounded .pp_arrow_next.disabled {
+    background-position: -22px -87px;
+    cursor: default;
+}
+div.dark_rounded .pp_bottom .pp_left {
+    background: url("img/sprite.png") no-repeat scroll -88px -80px transparent;
+}
+div.dark_rounded .pp_bottom .pp_middle {
+    background: url("img/contentPattern.png") repeat scroll left top transparent;
+}
+div.dark_rounded .pp_bottom .pp_right {
+    background: url("img/sprite.png") no-repeat scroll -110px -80px transparent;
+}
+div.dark_rounded .pp_loaderIcon {
+    background: url("img/loader.gif") no-repeat scroll center center transparent;
+}
+div.dark_square .pp_left, div.dark_square .pp_middle, div.dark_square .pp_right, div.dark_square .pp_content {
+    background: url("img/contentPattern.png") repeat scroll left top transparent;
+}
+div.dark_square .currentTextHolder {
+    color: #C4C4C4;
+}
+div.dark_square .pp_description {
+    color: #FFFFFF;
+}
+div.dark_square .pp_loaderIcon {
+    background: url("img/loader.gif") no-repeat scroll center center transparent;
+}
+div.dark_square .pp_content_container .pp_left {
+    background: url("img/contentPattern.png") repeat-y scroll left top transparent;
+}
+div.dark_square .pp_content_container .pp_right {
+    background: url("img/contentPattern.png") repeat-y scroll right top transparent;
+}
+div.dark_square .pp_expand {
+    background: url("img/sprite.png") no-repeat scroll -31px -26px transparent;
+    cursor: pointer;
+}
+div.dark_square .pp_expand:hover {
+    background: url("img/sprite.png") no-repeat scroll -31px -47px transparent;
+    cursor: pointer;
+}
+div.dark_square .pp_contract {
+    background: url("img/sprite.png") no-repeat scroll 0 -26px transparent;
+    cursor: pointer;
+}
+div.dark_square .pp_contract:hover {
+    background: url("img/sprite.png") no-repeat scroll 0 -47px transparent;
+    cursor: pointer;
+}
+div.dark_square .pp_close {
+    background: url("img/sprite.png") no-repeat scroll -1px -1px transparent;
+    cursor: pointer;
+    height: 22px;
+    width: 75px;
+}
+div.dark_square #pp_full_res .pp_inline {
+    color: #FFFFFF;
+}
+div.dark_square .pp_arrow_previous {
+    background: url("img/sprite.png") no-repeat scroll 0 -71px transparent;
+}
+div.dark_square .pp_arrow_previous.disabled {
+    background-position: 0 -87px;
+    cursor: default;
+}
+div.dark_square .pp_arrow_next {
+    background: url("img/sprite.png") no-repeat scroll -22px -71px transparent;
+}
+div.dark_square .pp_arrow_next.disabled {
+    background-position: -22px -87px;
+    cursor: default;
+}
+div.dark_square .pp_next:hover {
+    background: url("img/btnNext.png") no-repeat scroll right center transparent;
+    cursor: pointer;
+}
+div.dark_square .pp_previous:hover {
+    background: url("img/btnPrevious.png") no-repeat scroll left center transparent;
+    cursor: pointer;
+}
+div.light_square .pp_left, div.light_square .pp_middle, div.light_square .pp_right, div.light_square .pp_content {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+div.light_square .pp_content .ppt {
+    color: #000000;
+}
+div.light_square .pp_expand {
+    background: url("img/sprite.png") no-repeat scroll -31px -26px transparent;
+    cursor: pointer;
+}
+div.light_square .pp_expand:hover {
+    background: url("img/sprite.png") no-repeat scroll -31px -47px transparent;
+    cursor: pointer;
+}
+div.light_square .pp_contract {
+    background: url("img/sprite.png") no-repeat scroll 0 -26px transparent;
+    cursor: pointer;
+}
+div.light_square .pp_contract:hover {
+    background: url("img/sprite.png") no-repeat scroll 0 -47px transparent;
+    cursor: pointer;
+}
+div.light_square .pp_close {
+    background: url("img/sprite.png") no-repeat scroll -1px -1px transparent;
+    cursor: pointer;
+    height: 22px;
+    width: 75px;
+}
+div.light_square #pp_full_res .pp_inline {
+    color: #000000;
+}
+div.light_square .pp_arrow_previous {
+    background: url("img/sprite.png") no-repeat scroll 0 -71px transparent;
+}
+div.light_square .pp_arrow_previous.disabled {
+    background-position: 0 -87px;
+    cursor: default;
+}
+div.light_square .pp_arrow_next {
+    background: url("img/sprite.png") no-repeat scroll -22px -71px transparent;
+}
+div.light_square .pp_arrow_next.disabled {
+    background-position: -22px -87px;
+    cursor: default;
+}
+div.light_square .pp_next:hover {
+    background: url("img/btnNext.png") no-repeat scroll right center transparent;
+    cursor: pointer;
+}
+div.light_square .pp_previous:hover {
+    background: url("img/btnPrevious.png") no-repeat scroll left center transparent;
+    cursor: pointer;
+}
+div.facebook .pp_top .pp_left {
+    background: url("img/sprite.png") no-repeat scroll -88px -53px transparent;
+}
+div.facebook .pp_top .pp_middle {
+    background: url("img/contentPatternTop.png") repeat-x scroll left top transparent;
+}
+div.facebook .pp_top .pp_right {
+    background: url("img/sprite.png") no-repeat scroll -110px -53px transparent;
+}
+div.facebook .pp_content .ppt {
+    color: #000000;
+}
+div.facebook .pp_content_container .pp_left {
+    background: url("img/contentPatternLeft.png") repeat-y scroll left top transparent;
+}
+div.facebook .pp_content_container .pp_right {
+    background: url("img/contentPatternRight.png") repeat-y scroll right top transparent;
+}
+div.facebook .pp_content {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+div.facebook .pp_expand {
+    background: url("img/sprite.png") no-repeat scroll -31px -26px transparent;
+    cursor: pointer;
+}
+div.facebook .pp_expand:hover {
+    background: url("img/sprite.png") no-repeat scroll -31px -47px transparent;
+    cursor: pointer;
+}
+div.facebook .pp_contract {
+    background: url("img/sprite.png") no-repeat scroll 0 -26px transparent;
+    cursor: pointer;
+}
+div.facebook .pp_contract:hover {
+    background: url("img/sprite.png") no-repeat scroll 0 -47px transparent;
+    cursor: pointer;
+}
+div.facebook .pp_close {
+    background: url("img/sprite.png") no-repeat scroll -1px -1px transparent;
+    cursor: pointer;
+    height: 22px;
+    width: 22px;
+}
+div.facebook #pp_full_res .pp_inline {
+    color: #000000;
+}
+div.facebook .pp_loaderIcon {
+    background: url("img/loader.gif") no-repeat scroll center center transparent;
+}
+div.facebook .pp_nav .pp_arrow_previous {
+    background: url("img/sprite.png") no-repeat scroll 0 -71px transparent;
+    height: 22px;
+    margin-top: 0;
+    width: 22px;
+}
+div.facebook .pp_arrow_previous.disabled {
+    background-position: 0 -96px;
+    cursor: default;
+}
+div.facebook .pp_nav .pp_arrow_next {
+    background: url("img/sprite.png") no-repeat scroll -32px -71px transparent;
+    height: 22px;
+    margin-top: 0;
+    width: 22px;
+}
+div.facebook .pp_arrow_next.disabled {
+    background-position: -32px -96px;
+    cursor: default;
+}
+div.facebook .pp_nav {
+    margin-top: 0;
+}
+div.facebook .pp_nav p {
+    font-size: 15px;
+    padding: 0 3px 0 4px;
+}
+div.facebook .pp_next:hover {
+    background: url("img/btnNext.png") no-repeat scroll right center transparent;
+    cursor: pointer;
+}
+div.facebook .pp_previous:hover {
+    background: url("img/btnPrevious.png") no-repeat scroll left center transparent;
+    cursor: pointer;
+}
+div.facebook .pp_bottom .pp_left {
+    background: url("img/sprite.png") no-repeat scroll -88px -80px transparent;
+}
+div.facebook .pp_bottom .pp_middle {
+    background: url("img/contentPatternBottom.png") repeat-x scroll left top transparent;
+}
+div.facebook .pp_bottom .pp_right {
+    background: url("img/sprite.png") no-repeat scroll -110px -80px transparent;
+}
+div.pp_pic_holder a:focus {
+    outline: medium none;
+}
+div.pp_overlay {
+    background: none repeat scroll 0 0 #000000;
+    display: none;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 9500;
+}
+div.pp_pic_holder {
+    display: none;
+    position: absolute;
+    width: 100px;
+    z-index: 10000;
+}
+.pp_top {
+    height: 20px;
+    position: relative;
+}
+* html .pp_top {
+    padding: 0 20px;
+}
+.pp_top .pp_left {
+    height: 20px;
+    left: 0;
+    position: absolute;
+    width: 20px;
+}
+.pp_top .pp_middle {
+    height: 20px;
+    left: 20px;
+    position: absolute;
+    right: 20px;
+}
+* html .pp_top .pp_middle {
+    left: 0;
+    position: static;
+}
+.pp_top .pp_right {
+    height: 20px;
+    left: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 20px;
+}
+.pp_content {
+    height: 40px;
+}
+.pp_content .ppt {
+    left: auto;
+    margin-bottom: 5px;
+    position: relative;
+    top: auto;
+}
+.pp_fade {
+    display: none;
+}
+.pp_content_container {
+    position: relative;
+    text-align: left;
+    width: 100%;
+}
+.pp_content_container .pp_left {
+    padding-left: 20px;
+}
+.pp_content_container .pp_right {
+    padding-right: 20px;
+}
+.pp_content_container .pp_details {
+    margin: 10px 0 2px;
+}
+.pp_description {
+    display: none;
+    margin: 0 0 5px;
+}
+.pp_nav {
+    clear: left;
+    float: left;
+    margin: 3px 0 0;
+}
+.pp_nav p {
+    float: left;
+    margin: 2px 4px;
+}
+.pp_nav a.pp_arrow_previous, .pp_nav a.pp_arrow_next {
+    display: block;
+    float: left;
+    height: 15px;
+    margin-top: 3px;
+    overflow: hidden;
+    text-indent: -10000px;
+    width: 14px;
+}
+.pp_hoverContainer {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2000;
+}
+a.pp_next {
+    background: url("img/btnNext.png") no-repeat scroll 10000px 10000px transparent;
+    display: block;
+    float: right;
+    height: 100%;
+    text-indent: -10000px;
+    width: 49%;
+}
+a.pp_previous {
+    background: url("img/btnNext.png") no-repeat scroll 10000px 10000px transparent;
+    display: block;
+    float: left;
+    height: 100%;
+    text-indent: -10000px;
+    width: 49%;
+}
+a.pp_expand, a.pp_contract {
+    cursor: pointer;
+    display: none;
+    height: 20px;
+    position: absolute;
+    right: 30px;
+    text-indent: -10000px;
+    top: 10px;
+    width: 20px;
+    z-index: 20000;
+}
+a.pp_close {
+    display: block;
+    float: right;
+    text-indent: -10000px;
+}
+.pp_bottom {
+    height: 20px;
+    position: relative;
+}
+* html .pp_bottom {
+    padding: 0 20px;
+}
+.pp_bottom .pp_left {
+    height: 20px;
+    left: 0;
+    position: absolute;
+    width: 20px;
+}
+.pp_bottom .pp_middle {
+    height: 20px;
+    left: 20px;
+    position: absolute;
+    right: 20px;
+}
+* html .pp_bottom .pp_middle {
+    left: 0;
+    position: static;
+}
+.pp_bottom .pp_right {
+    height: 20px;
+    left: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 20px;
+}
+.pp_loaderIcon {
+    display: block;
+    height: 24px;
+    left: 50%;
+    margin: -12px 0 0 -12px;
+    position: absolute;
+    top: 50%;
+    width: 24px;
+}
+#pp_full_res {
+    line-height: 1 !important;
+}
+#pp_full_res .pp_inline {
+    text-align: left;
+}
+#pp_full_res .pp_inline p {
+    margin: 0 0 15px;
+}
+div.ppt {
+    color: #FFFFFF;
+    display: none;
+    font-size: 17px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    z-index: 9999;
+}
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.clearfix {
+    display: inline-block;
+}
+* html .clearfix {
+    height: 1%;
+}
+.clearfix {
+    display: block;
+}
+
+
+html{background: white url(img/gridbg.gif) repeat top center; }
+
+a{color: #ec0000;}
+a:hover {text-decoration: underline;}
+a img:hover {opacity: 0.80;}
+#content h1 a:hover{color: #ec0000;}
+#navigation li a:hover{background: #ec0000;}
+
+h2 a{color: #333; text-decoration: none;}
+h2 a:hover{color: #111; text-decoration: none;}
+
+
+.contact_btn{background: transparent url(img/contact_btn_red.png) no-repeat top center; height: 38px; width: 105px; display: block;}
+
+#content h1 span, #navigation li a{
+    font-size: 14px; 
+    background: black; 
+    padding: 2px 6px 4px; 
+    color: #fff; 
+    text-transform: uppercase;}

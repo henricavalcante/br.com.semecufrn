@@ -1,0 +1,28 @@
+$(document).ready(function() {
+	$('a.panel').click(function () {
+		$('a.panel').removeClass('selected');
+		$(this).addClass('selected');
+		if ($(this).attr('href').indexOf('#') != -1) {
+			$('#wrapper').scrollTo($(this).attr('href'), 1200);
+		} else {
+			window.location.href = $(this).attr('href');
+		}
+		return false;
+	});
+	$(window).resize(function () {
+		resizePanel();
+	});
+});
+
+function resizePanel() {  
+     //get the browser width and height  
+     width = $(window).width();  
+     height = $(window).height();  
+     //get the mask width: width * total of items  
+     mask_width = width * $('.item').length;  
+     //set the dimension   
+     $('#wrapper, .item').css({width: width, height: height});  
+     $('#mask').css({width: mask_width, height: height});  
+     //if the item is displayed incorrectly, set it to the corrent pos  
+     $('#wrapper').scrollTo($('a.selected').attr('href'), 0);  
+}  
