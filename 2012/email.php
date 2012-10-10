@@ -1,12 +1,10 @@
 <?php
-$nome		= $_POST["nome"];	// Pega o valor do campo Nome
-$telefone		= $_POST["telefone"];	// Pega o valor do campo Telefone
-$assunto		= $_POST["assunto"];	// Pega o valor do campo Email
-$mensagem	= $_POST["mensagem"];	// Pega os valores do campo Mensagem
+$nome		= $_POST["nome"];	
+$email		= $_POST["email"];	
+$assunto		= $_POST["assunto"];	
+$mensagem	= $_POST["mensagem"];	
 
-// Variável que junta os valores acima e monta o corpo do email
-
-$Vai 		= "Nome: $nome\n\ntelefone: $telefone\n\nassunto: $assunto\n\nMensagem: $mensagem\n";
+$Vai 		= "Nome: $nome\n\ntelefone: $email\n\nassunto: $assunto\n\nMensagem: $mensagem\n";
 
 require_once("phpmailer/class.phpmailer.php");
 
@@ -16,12 +14,12 @@ define('GPWD', 'buggalu123');		// <-- Insira aqui a senha do seu GMail
 function smtpmailer($para, $de, $de_nome, $assunto, $corpo) {
 	global $error;
 	$mail = new PHPMailer();
-	$mail->IsSMTP();		// Ativar SMTP
-	$mail->SMTPDebug = 1;		// Debugar: 1 = erros e mensagens, 2 = mensagens apenas
-	$mail->SMTPAuth = true;		// Autenticação ativada
-	$mail->SMTPSecure = 'ssl';	// SSL REQUERIDO pelo GMail
-	$mail->Host = 'smtp.gmail.com';	// SMTP utilizado
-	$mail->Port = 465;  		// A porta 465 deverá estar aberta em seu servidor
+	$mail->IsSMTP();		
+	$mail->SMTPDebug = 1;		
+	$mail->SMTPAuth = true;		
+	$mail->SMTPSecure = 'ssl';	
+	$mail->Host = 'smtp.gmail.com';
+	$mail->Port = 465;  		
 	$mail->Username = GUSER;
 	$mail->Password = GPWD;
 	$mail->SetFrom($de, $de_nome);
@@ -29,6 +27,7 @@ function smtpmailer($para, $de, $de_nome, $assunto, $corpo) {
 	$mail->Body = $corpo;
 
   $mail->AddAddress($para, 'vieiraanderson@outlook.com');
+$mail->AddAddress($para, 'hnri_mxel@hotmail.com');
 
 	
 	if(!$mail->Send()) {
@@ -45,7 +44,7 @@ function smtpmailer($para, $de, $de_nome, $assunto, $corpo) {
 
  if (smtpmailer('vieiraanderson@outlook.com', 'semecufrn@gmail.com', 'Mensagens site', 'Mensagens site SEMEC', $Vai)) {
 
-	Header("location:http://www.dominio.com.br/obrigado.html"); // Redireciona para uma página de obrigado.
+	Header("location:http://www.semecufrn.com.br/"); // Redireciona para uma página de obrigado.
 
 }
 if (!empty($error)) echo $error;
